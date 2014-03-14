@@ -1,16 +1,13 @@
 {
     "technologies": {
-        "apis": [
-            "insert apis"
-        ],
         "platforms": [
-            "insert platforms"
-        ],
-        "toolkits": [
-            "insert toolkits"
+            "Android"
         ]
     },
     "themes": [
-        "insert themes"
+        "Color"
+	"Touch"
+	"User Interaction"
+	"HSV"
     ]
 }
