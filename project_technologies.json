@@ -5,9 +5,9 @@
         ]
     },
     "themes": [
-        "Color"
-	"Touch"
-	"User Interaction"
+        "Color",
+	"Touch",
+	"User Interaction",
 	"HSV"
     ]
 }
