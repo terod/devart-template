@@ -1,115 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center" >
-
-    <FrameLayout
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="true" >
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true" >
         
         <TextView
             android:id="@+id/hintDrawer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="top"
             android:hint="@string/tvDrawHint" />
 
-        <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:spinnerMode="dropdown"
-             />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="344dp"
+            android:layout_height="344dp"
+            android:scaleType="centerInside"
+            android:contentDescription="@string/wheelDesc" >
+    	</ImageView>
 
     </FrameLayout>
 
-    <TextView
-        android:id="@+id/textViewIntro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="19dp"
-        android:text="@string/tvIntro"
-        />
+    
 
-    <RadioGroup
-        android:id="@+id/radioGroup1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textViewIntro"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="15dp"
-        android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/textView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tvSelectHint1"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <RadioButton
-            android:id="@+id/blueButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:text="@string/rb_blue" />
-
-        <RadioButton
-            android:id="@+id/redButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:text="@string/rb_red" />
-
-        <RadioButton
-            android:id="@+id/greenButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:text="@string/rb_green" />
-    </RadioGroup>
-
-    <RadioGroup
-        android:id="@+id/radioGroup2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textViewIntro"
-        android:layout_below="@+id/radioGroup1"
-        android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/TextView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tvSelectHint2"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
-
-        <RadioButton
-            android:id="@+id/blueButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:text="@string/rb_blue" />
-
-        <RadioButton
-            android:id="@+id/redButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:text="@string/rb_red" />
-
-        <RadioButton
-            android:id="@+id/greenButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="37dp"
-            android:text="@string/rb_green" />
-    </RadioGroup>
-
-</RelativeLayout>
