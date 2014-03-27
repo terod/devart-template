@@ -3,7 +3,7 @@ ColorFingers
 
 ## Authors
 George Ebbinason, https://github.com/terod
-Rajesh Kanna.
+Dr.Rajesh Kanna.
 
 ## Description
 ColorFingers is a fun mobile app aimed to give a unique interaction in choosing a color. It makes use of the touch interface and touch information of each finger to produce different shades of a some color chosen by the user.
