@@ -1,5 +1,4 @@
-# Project Title
-ColorFingers
+# ColorFingers
 
 ## Authors
 George Ebbinason, https://github.com/terod
